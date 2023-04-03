@@ -46,5 +46,27 @@
     <img src="https://via.placeholder.com/600x200" alt="Imagen del artículo"
     class="img-fluid rounded">
   </div>
-</body>
+  <br>
+<button type="button" class="btn btn-primary container d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Componente Modal
+</button>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">¿Que es el Modal?</h5>
+      </div>
+      <div class="modal-body">
+        El modal de Bootstrap es un componente de la biblioteca de CSS y JavaScript llamada Bootstrap, que se utiliza para mostrar contenido en una ventana emergente que se 
+        superpone en la página web principal. Es un cuadro de diálogo que aparece en la parte superior de la página, centrado en la pantalla, y se utiliza comúnmente 
+        para mostrar información adicional, solicitar la entrada del usuario o confirmar una acción.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
